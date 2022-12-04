@@ -1,4 +1,4 @@
-package ordera;
+package orders;
 
 public class Product extends StoreItem {
     public Product(String name, double price) {
