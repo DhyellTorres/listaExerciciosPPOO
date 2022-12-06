@@ -21,7 +21,6 @@ public class Main {
 
         StoreItem box = new Box("Box", 0.25);
         box.addItem(otherBox);
-        out.println("Seu carrinho de compras: " + box.getName() + " " + box.calculateTotal());
 
         return box;
     }

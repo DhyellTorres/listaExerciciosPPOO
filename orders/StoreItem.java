@@ -7,13 +7,12 @@ public abstract class StoreItem {
     private String name;
     private double price;
 
-    private List<StoreItem> storeItems;
+    private List<StoreItem> storedItems;
 
     protected StoreItem(String name, double price) {
-        super();
         this.name = name;
         this.price = price;
-        this.storeItems = new ArrayList<StoreItem>();
+        this.storedItems = new ArrayList<StoreItem>();
     }
 
     public String getName() {
@@ -25,11 +24,11 @@ public abstract class StoreItem {
     }
 
     public void addItem(StoreItem item) {
-        storeItems.add(item);
+        storedItems.add(item);
     }
 
     public void removeItem(StoreItem item) {
-        storeItems.remove(item);
+        storedItems.remove(item);
     }
 
     public void setName(String name) {
@@ -43,7 +42,7 @@ public abstract class StoreItem {
     public double calculateTotal() {
         double total = this.price;
 
-        for (StoreItem item : storeItems) {
+        for (StoreItem item : storedItems) {
             total += item.calculateTotal();
         }
         return total;
