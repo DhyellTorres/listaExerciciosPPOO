@@ -10,11 +10,7 @@ public class BlueBerryCake extends DecoratorCake {
 
     @Override
     public String getDescription() {
-        if (cake != null) {
-            return cake.getDescription() + ", BlueBerry Cake";
-        } else {
-            return "BlueBerry Cake";
-        }
+        return cake.getDescription() + " BlueBerry Cake";
     }
 
     @Override

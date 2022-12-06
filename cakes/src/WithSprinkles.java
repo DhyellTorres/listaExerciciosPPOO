@@ -11,7 +11,7 @@ public class WithSprinkles extends DecoratorCake {
 
     @Override
     public String getDescription() {
-        return "With Sprinkles";
+        return cake.getDescription() + " with sprinkles";
     }
 
     @Override

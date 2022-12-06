@@ -11,7 +11,7 @@ public class MultiLayered extends DecoratorCake {
 
     @Override
     public String getDescription() {
-        return "Multi-layered";
+        return cake.getDescription() + " Multi-layered";
     }
 
     @Override
