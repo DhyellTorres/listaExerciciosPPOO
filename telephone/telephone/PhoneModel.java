@@ -1,3 +1,5 @@
+package telephone;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +26,7 @@ public class PhoneModel {
         return "Agora discando " + this.getDigitsToString() + "...";
     }
 
-    private String getDigitsToString() {
+    public String getDigitsToString() {
         String digitsString = "";
         for (Integer digit : digits) {
             digitsString += digit;

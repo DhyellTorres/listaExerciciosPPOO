@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 import cakes.*;
 
-class cakesTest {
+public class cakesTest {
 
     @Test
     public void testCake() {
@@ -21,7 +21,7 @@ class cakesTest {
         Order order = new Order();
         order.addCake(new MultiLayered(new StrawBerryCake(new WithSprinkles(
                 new WithSprinkles(new WithSaying(new WithSaying("EVERYTHING!"), "One of"))))));
-        assertEquals(50.0, order.getTotal(), 0.0);
+        assertEquals(69.0, order.getTotal(), 0.0);
     }
 
 }

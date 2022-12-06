@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 import dataMinning.dataMinning.*;
 
-class dataminningTest {
+public class dataminningTest {
 
     @Test
     public void dataMinningTest() {

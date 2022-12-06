@@ -1,3 +1,5 @@
+package telephone;
+
 //interface subject telephone
 public interface Subject {
   public void registerObserver(Observer o);

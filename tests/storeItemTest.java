@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 import orders.*;
 
-class StoreItemTest {
+public class storeItemTest {
 
     @Test
     public void testStoreItem() {

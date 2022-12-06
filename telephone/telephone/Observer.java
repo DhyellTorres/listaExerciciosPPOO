@@ -1,3 +1,5 @@
+package telephone;
+
 //interface observer telephone
 public interface Observer {
   public void printRecentNumber();
