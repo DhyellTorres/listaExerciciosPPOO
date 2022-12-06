@@ -1,3 +1,5 @@
+package cakes;
+
 public class WithSprinkles extends DecoratorCake {
     private static final int PRICE = 2;
 

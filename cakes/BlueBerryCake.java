@@ -1,3 +1,5 @@
+package cakes;
+
 public class BlueBerryCake extends DecoratorCake {
 
     public BlueBerryCake() {

@@ -1,3 +1,5 @@
+package dataMinning.dataMinning;
+
 public class DOC extends DataTemplate {
     private String path;
 

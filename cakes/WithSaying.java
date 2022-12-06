@@ -1,3 +1,5 @@
+package cakes;
+
 public class WithSaying extends DecoratorCake {
     private final String saying;
 

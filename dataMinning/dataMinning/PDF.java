@@ -1,28 +1,30 @@
-public class CSV extends DataTemplate {
+package dataMinning.dataMinning;
+
+public class PDF extends DataTemplate {
     private String path;
 
-    public CSV(String path) {
+    public PDF(String path) {
         this.path = path;
     }
 
     @Override
     void open() {
-        System.out.println("CSV file was opened" + " " + path);
+        System.out.println("PDF file was opened" + " " + path);
     }
 
     @Override
     void close() {
-        System.out.println("CSV file was closed" + " " + path);
+        System.out.println("PDF file was closed" + " " + path);
     }
 
     @Override
     void extract() {
-        System.out.println("CSV file was extracted");
+        System.out.println("PDF file was extracted");
     }
 
     @Override
     void convert() {
-        System.out.println("CSV file was converted");
+        System.out.println("PDF file was converted");
     }
 
     public String getPath() {

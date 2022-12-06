@@ -1,3 +1,5 @@
+package cakes;
+
 public class MultiLayered extends DecoratorCake {
     private static final int PRICE = 5;
 

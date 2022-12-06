@@ -1,11 +1,21 @@
+package cakes;
+
 import java.util.List;
 import java.util.ArrayList;
 
 public class Order {
     private final List<Cakes> cakes = new ArrayList<>();
 
-    void addCake(Cakes cake) {
+    public void addCake(Cakes cake) {
         cakes.add(cake);
+    }
+
+    public double getTotal() {
+        double total = 0;
+        for (Cakes cake : cakes) {
+            total += cake.getPrice();
+        }
+        return total;
     }
 
     public void printOrder() {

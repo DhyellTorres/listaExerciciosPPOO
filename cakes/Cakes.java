@@ -1,3 +1,5 @@
+package cakes;
+
 public abstract class Cakes {
 
     private final int PRICE = 20;

@@ -1,4 +1,4 @@
-import java.nio.file.Path;
+package dataMinning.dataMinning;
 
 public abstract class DataTemplate {
     abstract void open();

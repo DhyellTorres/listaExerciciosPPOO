@@ -1,3 +1,5 @@
+package cakes;
+
 public abstract class DecoratorCake extends Cakes {
 
 	protected Cakes cake;
